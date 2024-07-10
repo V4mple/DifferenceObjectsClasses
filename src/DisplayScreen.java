@@ -49,7 +49,7 @@ public class DisplayScreen
 		monitorPrice = cost;
 	}
 	
-	// Make getter
+	// Manufacturer getter
 	public String getMake()
 	{
 		return companyMake;
