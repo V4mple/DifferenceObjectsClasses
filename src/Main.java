@@ -55,5 +55,17 @@ public class Main
 		
 		// Call the display method to view that the initialized information matches.
 		monitor2.displayInformation();
+		
+		
+		
+		DisplayScreen monitor3 = new DisplayScreen("LG",24,240,99.99);
+		monitor3.displayInformation();
+		
+		DisplayScreen monitor4 = new DisplayScreen("Dell",27,140,109.99);
+		monitor4.displayInformation();
+		
+		DisplayScreen monitor5 = new DisplayScreen("SANSUI",24,120,77.99);
+		monitor5.displayInformation();
+
 	}
 }
